@@ -19,21 +19,21 @@
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
-    "@chakra-ui/react": "^3.24.2",
-    "@emotion/react": "^11.14.0",
+    "@chakra-ui/react": "3.24.2",
+    "@emotion/react": "11.14.0",
     "@eslint/eslintrc": "3.3.1",
-    "@next/eslint-plugin-next": "^15.4.6",
-    "@storybook/addon-themes": "^9.1.1",
-    "@storybook/nextjs": "^9.1.1",
+    "@next/eslint-plugin-next": "15.4.6",
+    "@storybook/addon-themes": "9.1.1",
+    "@storybook/nextjs": "9.1.1",
     "@types/node": "22.17.1",
     "@types/react": "19.1.9",
     "@types/react-dom": "19.1.7",
     "eslint": "9.33.0",
     "eslint-config-next": "15.4.6",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-storybook": "^9.1.1",
-    "storybook": "^9.1.1",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "eslint-plugin-storybook": "9.1.1",
+    "storybook": "9.1.1",
     "typescript": "5.9.2"
   }
 }
