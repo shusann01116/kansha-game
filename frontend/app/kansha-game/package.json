@@ -25,7 +25,7 @@
     "@next/eslint-plugin-next": "15.4.6",
     "@storybook/addon-themes": "9.1.2",
     "@storybook/nextjs": "9.1.2",
-    "@types/node": "22.17.1",
+    "@types/node": "22.17.2",
     "@types/react": "19.1.10",
     "@types/react-dom": "19.1.7",
     "eslint": "9.33.0",
