@@ -4,27 +4,27 @@ import "../styles/global.css";
 import { Provider } from "@/app/provider";
 
 export const NotoSansJP = Noto_Sans_JP({
-	weight: ["400", "500", "700"],
-	display: "swap",
-	subsets: ["latin"],
-	variable: "--font-noto-sans-jp",
+  weight: ["400", "500", "700"],
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--font-noto-sans-jp",
 });
 
 export const metadata: Metadata = {
-	title: "Kansha game",
-	description: "感謝の気持ちを忘れないゲーム",
+  title: "Kansha game",
+  description: "感謝の気持ちを忘れないゲーム",
 };
 
 export default function RootLayout({
-	children,
+  children,
 }: Readonly<{
-	children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-	return (
-		<html suppressHydrationWarning className={`${NotoSansJP.variable}`}>
-			<body>
-				<Provider>{children}</Provider>
-			</body>
-		</html>
-	);
+  return (
+    <html suppressHydrationWarning className={`${NotoSansJP.variable}`}>
+      <body>
+        <Provider>{children}</Provider>
+      </body>
+    </html>
+  );
 }

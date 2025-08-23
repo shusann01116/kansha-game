@@ -29,6 +29,7 @@ pnpm build-storybook
 ## Project Architecture
 
 ### Technology Stack
+
 - **Framework**: Next.js 15 with App Router
 - **UI Library**: HeroUI (modern React component library)
 - **Styling**: Tailwind CSS v4 with HeroUI theming
@@ -37,6 +38,7 @@ pnpm build-storybook
 - **Development Tools**: Storybook for component development, ESLint with Next.js config
 
 ### Directory Structure
+
 - `src/app/` - Next.js App Router pages and layouts
 - `src/components/` - Reusable React components (currently empty)
 - `src/styles/` - Global CSS and Tailwind configuration
@@ -44,21 +46,26 @@ pnpm build-storybook
   - `hero.ts` - HeroUI configuration export
 
 ### Key Configuration Files
+
 - `next.config.ts` - Next.js configuration (currently minimal)
 - `tsconfig.json` - TypeScript config with path aliases (`@/*` → `./src/*`)
 - `eslint.config.mjs` - ESLint with Next.js and Storybook rules
 - `postcss.config.mjs` - PostCSS configuration for Tailwind CSS
 
 ### Application Context
+
 This is a "kansha game" (gratitude game) application - specifically a real-time quiz battle game for dozens of participants. The application has Japanese language support with Noto Sans JP font. The main layout includes HeroUI provider configuration. The current implementation is minimal with placeholder content.
 
 ### Project Documentation
+
 Requirements and specifications are documented in the `docs/` directory at the project root:
+
 - `docs/00-overview.md` - Project overview and requirements (in Japanese)
 
 ## Development Environment
 
 The project uses `mise` for tool management with:
+
 - Node.js 24.6.0
 - pnpm 10.14.0
 - turbo 2.5.6
