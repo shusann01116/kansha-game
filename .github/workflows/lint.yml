@@ -1,5 +1,5 @@
 name: Typo Checker
-on: [pull_request]
+on: [pull_request, merge_group, push]
 
 jobs:
   run:
