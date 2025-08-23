@@ -3,7 +3,8 @@
 
 pre-commit:
   parallel: true
-  commands:
-    format:
+  jobs:
+    - name: format frontend app game
+      root: "frontend/app/kansha-game"
       glob: "*.{js,ts,jsx,tsx}"
       run: pnpm format {staged_files}

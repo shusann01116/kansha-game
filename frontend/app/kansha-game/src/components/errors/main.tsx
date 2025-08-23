@@ -2,7 +2,7 @@ import { Button } from "@heroui/react";
 
 export const MainErrorFallback = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 p-4 h-screen">
+    <div className="flex h-screen flex-col items-center justify-center gap-4 p-4">
       <p className="font-mono text-xl">Something went wrong :(</p>
       <Button
         color="primary"
