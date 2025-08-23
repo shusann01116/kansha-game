@@ -3,10 +3,11 @@ packages:
   - packages/*
 
 onlyBuiltDependencies:
-  - '@parcel/watcher'
-  - '@tailwindcss/oxide'
+  - "@parcel/watcher"
+  - "@tailwindcss/oxide"
   - core-js-pure
   - esbuild
   - lefthook
   - sharp
   - unrs-resolver
+  - "@heroui/shared-utils"
