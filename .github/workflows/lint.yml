@@ -8,5 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: jdx/mise-action@v2
+      - run: pnpm install
       - run: pnpm lint
         working-directory: frontend/app/kansha-game
