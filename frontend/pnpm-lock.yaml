@@ -112,7 +112,7 @@ importers:
         specifier: 10.1.8
         version: 10.1.8(eslint@9.34.0(jiti@2.5.1))
       eslint-plugin-react:
-        specifier: 7.37.5
+        specifier: ^7.37.5
         version: 7.37.5(eslint@9.34.0(jiti@2.5.1))
       eslint-plugin-react-hooks:
         specifier: 5.2.0
@@ -1845,11 +1845,6 @@ packages:
 
   '@react-types/select@3.10.0':
     resolution: {integrity: sha512-+xJwYWJoJTCGsaiPAqb6QB79ub1WKIHSmOS9lh/fPUXfUszVs05jhajaN9KjrKmnXds5uh4u6l1JH5J1l2K5pw==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
-
-  '@react-types/shared@3.30.0':
-    resolution: {integrity: sha512-COIazDAx1ncDg046cTJ8SFYsX8aS3lB/08LDnbkH/SkdYrFPWDlXMrO/sUam8j1WWM+PJ+4d1mj7tODIKNiFog==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
 
@@ -7273,7 +7268,7 @@ snapshots:
 
   '@react-types/accordion@3.0.0-alpha.26(react@19.1.1)':
     dependencies:
-      '@react-types/shared': 3.30.0(react@19.1.1)
+      '@react-types/shared': 3.31.0(react@19.1.1)
       react: 19.1.1
 
   '@react-types/breadcrumbs@3.7.15(react@19.1.1)':
@@ -7366,10 +7361,6 @@ snapshots:
   '@react-types/select@3.10.0(react@19.1.1)':
     dependencies:
       '@react-types/shared': 3.31.0(react@19.1.1)
-      react: 19.1.1
-
-  '@react-types/shared@3.30.0(react@19.1.1)':
-    dependencies:
       react: 19.1.1
 
   '@react-types/shared@3.31.0(react@19.1.1)':
