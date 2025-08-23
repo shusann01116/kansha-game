@@ -1,10 +1,18 @@
 import { Button } from "@heroui/react";
 
 export const MainErrorFallback = () => {
-  return (
-    <div className="flex flex-col items-center justify-center min-h-screen gap-4">
-      <p>Something went wrong :(</p>
-      <Button onPress={() => window.location.reload()}>Reload</Button>
-    </div>
-  );
+	return (
+		<div className="flex flex-col items-center justify-center gap-4 p-4 h-screen">
+			<p className="font-mono text-xl">Something went wrong :(</p>
+			<Button
+				color="primary"
+				radius="sm"
+				variant="ghost"
+				className="font-mono"
+				onPress={() => window.location.reload()}
+			>
+				Reload
+			</Button>
+		</div>
+	);
 };

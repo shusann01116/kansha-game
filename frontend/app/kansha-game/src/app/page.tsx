@@ -1,3 +1,6 @@
+"use client";
+import { Button } from "@heroui/react";
+
 export default function Home() {
 	return (
 		<>
@@ -9,6 +12,9 @@ export default function Home() {
 			<div>
 				<div>place holder</div>
 			</div>
+			<Button color="primary" onPress={() => window.location.reload()}>
+				Reload
+			</Button>
 		</>
 	);
 }
