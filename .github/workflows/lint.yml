@@ -1,9 +1,9 @@
-name: Typo Checker
+name: Type Checker
 on: [pull_request, merge_group, push]
 
 jobs:
   run:
-    name: Typo Checker
+    name: Type Checker
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
