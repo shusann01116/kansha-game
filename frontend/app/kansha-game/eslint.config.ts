@@ -1,6 +1,6 @@
 import json from "@eslint/json";
 import markdown from "@eslint/markdown";
-import { defineConfig } from "eslint/config";
+import { defineConfig, globalIgnores } from "eslint/config";
 import storybook from "eslint-plugin-storybook";
 
 import { dirname } from "path";
@@ -15,7 +15,19 @@ const compat = new FlatCompat({
 });
 
 export default defineConfig([
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
+  globalIgnores([
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/build/**",
+    "**/.next/**",
+    "**/.claude/**",
+    "**/CLAUDE.md",
+    "**/next-env.d.ts",
+  ]),
+  {
+    files: ["**/*.{js,jsx,ts,tsx}"],
+    extends: [...compat.extends("next/core-web-vitals", "next/typescript")],
+  },
   ...storybook.configs["flat/recommended"],
   {
     files: ["**/*.json"],
