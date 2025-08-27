@@ -1,20 +1,5 @@
-"use client";
-import { Button } from "@heroui/react";
+import { MainPage } from "@/app/_components/main-page";
 
 export default function Home() {
-  return (
-    <>
-      <div>
-        <div>
-          <p>kansha game</p>
-        </div>
-      </div>
-      <div>
-        <div>place holder</div>
-      </div>
-      <Button color="primary" onPress={() => window.location.reload()}>
-        Reload
-      </Button>
-    </>
-  );
+  return <MainPage />;
 }

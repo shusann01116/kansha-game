@@ -4,10 +4,7 @@ import "../styles/global.css";
 import { Provider } from "@/app/provider";
 
 export const NotoSansJP = Noto_Sans_JP({
-  weight: ["400", "500", "700"],
-  display: "swap",
   subsets: ["latin"],
-  variable: "--font-noto-sans-jp",
 });
 
 export const metadata: Metadata = {
@@ -21,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html suppressHydrationWarning className={`${NotoSansJP.variable}`}>
+    <html className={NotoSansJP.className}>
       <body>
         <Provider>{children}</Provider>
       </body>
