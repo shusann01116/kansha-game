@@ -5,7 +5,6 @@
 		":automergeMinor",
 		"customManagers:biomeVersions"
 	],
-	"automergeType": "branch",
 	"packageRules": [
 		{
 			"extends": [
