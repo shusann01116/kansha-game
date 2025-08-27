@@ -1,3 +1,4 @@
+import tseslint from "typescript-eslint";
 import json from "@eslint/json";
 import markdown from "@eslint/markdown";
 import { defineConfig, globalIgnores } from "eslint/config";
@@ -15,6 +16,24 @@ const compat = new FlatCompat({
 });
 
 export default defineConfig([
+  {
+    languageOptions: {
+      parser: tseslint.parser,
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+      globals: {
+        React: "readonly",
+      },
+    },
+    plugins: {
+      "@typescript-eslint": tseslint.plugin,
+    },
+  },
   globalIgnores([
     "**/dist/**",
     "**/node_modules/**",
@@ -25,10 +44,23 @@ export default defineConfig([
     "**/next-env.d.ts",
   ]),
   {
-    files: ["**/*.{js,jsx,ts,tsx}"],
+    files: ["**/*.{ts,tsx}"],
+    extends: [...tseslint.configs.recommendedTypeChecked],
+    rules: {
+      "@typescript-eslint/unbound-method": "off",
+    },
+  },
+  {
+    files: ["src/**/*.{js,jsx,ts,tsx}"],
     extends: [...compat.extends("next/core-web-vitals", "next/typescript")],
   },
-  ...storybook.configs["flat/recommended"],
+  {
+    files: ["src/**/*.stories.{js,jsx,ts,tsx}"],
+    extends: [...storybook.configs["flat/recommended"]],
+    rules: {
+      "import/no-anonymous-default-export": "off",
+    },
+  },
   {
     files: ["**/*.json"],
     plugins: { json },

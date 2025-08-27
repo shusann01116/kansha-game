@@ -7,7 +7,7 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint .",
+    "lint": "eslint . --cache",
     "format": "prettier --write .",
     "test": "vitest",
     "check-types": "tsc --project tsconfig.json --pretty --noEmit",
