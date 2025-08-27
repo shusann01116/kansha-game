@@ -19,6 +19,11 @@ export default defineConfig([
     "**/next-env.d.ts",
   ]),
   {
+    settings: {
+      react: {
+        version: "detect",
+      },
+    },
     languageOptions: {
       ...pluginReact.configs.flat.recommended.languageOptions,
       parser: tseslint.parser,
