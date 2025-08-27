@@ -2,14 +2,21 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": [
 		"config:best-practices",
-		":automergePatch",
+		":automergeMinor",
 		"customManagers:biomeVersions"
 	],
 	"automergeType": "branch",
 	"packageRules": [
 		{
-			"extends": ["monorepo:lucide"],
-			"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+			"extends": [
+				"monorepo:lucide"
+			],
+			"matchUpdateTypes": [
+				"minor",
+				"patch",
+				"pin",
+				"digest"
+			],
 			"automerge": true
 		}
 	]
