@@ -1,4 +1,4 @@
-import { Button } from "@heroui/react";
+import { Button } from "@/components/ui/hero-ui";
 
 export const MainErrorFallback = () => {
   return (
