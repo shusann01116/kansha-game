@@ -55,7 +55,7 @@
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-storybook": "9.1.6",
     "globals": "16.4.0",
-    "jsdom": "26.1.0",
+    "jsdom": "27.0.0",
     "lefhook": "1.1.1",
     "lefthook": "1.13.1",
     "playwright": "1.55.0",
