@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "turbo": "2.5.7"
+    "turbo": "2.5.8"
   },
   "packageManager": "pnpm@10.17.1"
 }
