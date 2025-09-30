@@ -1,5 +1,5 @@
 [tools]
 node = "24.9.0"
-"npm:lefthook" = "1.13.5"
+"npm:lefthook" = "1.13.6"
 "npm:turbo" = "2.5.8"
 pnpm = "10.17.1"
