@@ -42,7 +42,7 @@
     "@storybook/nextjs-vite": "9.1.10",
     "@tailwindcss/postcss": "4.1.14",
     "@types/node": "22.18.8",
-    "@types/react": "19.2.0",
+    "@types/react": "19.2.1",
     "@types/react-dom": "19.2.0",
     "@vitejs/plugin-react": "5.0.4",
     "@vitest/browser": "3.2.4",
