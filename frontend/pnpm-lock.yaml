@@ -101,7 +101,7 @@ importers:
         version: 5.0.4(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))
       '@vitest/browser':
         specifier: 3.2.4
-        version: 3.2.4(playwright@1.56.0)(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))(vitest@3.2.4)
+        version: 3.2.4(playwright@1.56.1)(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))(vitest@3.2.4)
       '@vitest/coverage-v8':
         specifier: 3.2.4
         version: 3.2.4(@vitest/browser@3.2.4)(vitest@3.2.4)
@@ -139,8 +139,8 @@ importers:
         specifier: 1.13.6
         version: 1.13.6
       playwright:
-        specifier: 1.56.0
-        version: 1.56.0
+        specifier: 1.56.1
+        version: 1.56.1
       postcss:
         specifier: 8.5.6
         version: 8.5.6
@@ -4146,13 +4146,13 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
-  playwright-core@1.56.0:
-    resolution: {integrity: sha512-1SXl7pMfemAMSDn5rkPeZljxOCYAmQnYLBTExuh6E8USHXGSX3dx6lYZN/xPpTz1vimXmPA9CDnILvmJaB8aSQ==}
+  playwright-core@1.56.1:
+    resolution: {integrity: sha512-hutraynyn31F+Bifme+Ps9Vq59hKuUCz7H1kDOcBs+2oGguKkWTU50bBWrtz34OUWmIwpBTWDxaRPXrIXkgvmQ==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.56.0:
-    resolution: {integrity: sha512-X5Q1b8lOdWIE4KAoHpW3SE8HvUB+ZZsUoN64ZhjnN8dOb1UpujxBtENGiZFE+9F/yhzJwYa+ca3u43FeLbboHA==}
+  playwright@1.56.1:
+    resolution: {integrity: sha512-aFi5B0WovBHTEvpM3DzXTUaeN6eN0qWnTkKx4NQaH4Wvcmc153PdaY2UBdSYKaGYw+UyWXSVyxDUg5DoPEttjw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -7623,7 +7623,7 @@ snapshots:
       storybook: 9.1.12(@testing-library/dom@10.4.1)(prettier@3.6.2)(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))
       ts-dedent: 2.2.0
     optionalDependencies:
-      '@vitest/browser': 3.2.4(playwright@1.56.0)(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))(vitest@3.2.4)
+      '@vitest/browser': 3.2.4(playwright@1.56.1)(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))(vitest@3.2.4)
       '@vitest/runner': 3.2.4
       vitest: 3.2.4(@types/debug@4.1.12)(@types/node@22.18.10)(@vitest/browser@3.2.4)(jiti@2.6.1)(jsdom@26.1.0)(lightningcss@1.30.1)(terser@5.43.1)
     transitivePeerDependencies:
@@ -8053,7 +8053,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/browser@3.2.4(playwright@1.56.0)(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))(vitest@3.2.4)':
+  '@vitest/browser@3.2.4(playwright@1.56.1)(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))(vitest@3.2.4)':
     dependencies:
       '@testing-library/dom': 10.4.1
       '@testing-library/user-event': 14.6.1(@testing-library/dom@10.4.1)
@@ -8065,7 +8065,7 @@ snapshots:
       vitest: 3.2.4(@types/debug@4.1.12)(@types/node@22.18.10)(@vitest/browser@3.2.4)(jiti@2.6.1)(jsdom@26.1.0)(lightningcss@1.30.1)(terser@5.43.1)
       ws: 8.18.3
     optionalDependencies:
-      playwright: 1.56.0
+      playwright: 1.56.1
     transitivePeerDependencies:
       - bufferutil
       - msw
@@ -8089,7 +8089,7 @@ snapshots:
       tinyrainbow: 2.0.0
       vitest: 3.2.4(@types/debug@4.1.12)(@types/node@22.18.10)(@vitest/browser@3.2.4)(jiti@2.6.1)(jsdom@26.1.0)(lightningcss@1.30.1)(terser@5.43.1)
     optionalDependencies:
-      '@vitest/browser': 3.2.4(playwright@1.56.0)(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))(vitest@3.2.4)
+      '@vitest/browser': 3.2.4(playwright@1.56.1)(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))(vitest@3.2.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -10046,11 +10046,11 @@ snapshots:
 
   picomatch@4.0.3: {}
 
-  playwright-core@1.56.0: {}
+  playwright-core@1.56.1: {}
 
-  playwright@1.56.0:
+  playwright@1.56.1:
     dependencies:
-      playwright-core: 1.56.0
+      playwright-core: 1.56.1
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -10888,7 +10888,7 @@ snapshots:
     optionalDependencies:
       '@types/debug': 4.1.12
       '@types/node': 22.18.10
-      '@vitest/browser': 3.2.4(playwright@1.56.0)(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))(vitest@3.2.4)
+      '@vitest/browser': 3.2.4(playwright@1.56.1)(vite@7.1.3(@types/node@22.18.10)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.43.1))(vitest@3.2.4)
       jsdom: 26.1.0
     transitivePeerDependencies:
       - jiti
