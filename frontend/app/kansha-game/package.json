@@ -41,7 +41,7 @@
     "@storybook/addon-vitest": "9.1.16",
     "@storybook/nextjs-vite": "9.1.16",
     "@tailwindcss/postcss": "4.1.16",
-    "@types/node": "22.18.13",
+    "@types/node": "24.10.1",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "@vitejs/plugin-react": "5.1.0",
